@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* Layout (global rules  for all sizes) */
+body{margin: 0; padding: 0;}
+header a.logo{
+    display: block;
+    position: absolute;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+ }
+ nav{
+    width: 100%;
+    display: block;
+    position: absolute;
+    background-color: #a6430a; 
+ }
+
+/* Layout Screens (default for older browsers) */
+
+header{
+    height: 420px;
+    background: url(../images/my_banner_large.jpg) no-repeat right 0px;
+ }
+ 
+ 
+
+ header a.logo{
+    width: 150px;
+    height: 200px;
+    top: 28px;
+    right: 30px;    
+    background-image: url(../images/my_logo_large.jpg);
+ }
+ article{padding: 60px 20px 10px 20px;}
+
+ .promo_container {padding: 0px 0px 15px 20px;}
+
+ .promo_container .promo{
+    width: 33%;
+    height:700px;
+    float: left;
+    background-position: 0px 3px;
+ }
+ 
+ .promo_container .promo .content{padding: 350px 30px 0px 0px;}
+ nav {top: 420px;}
+ nav a{margin: 12px 0px 10px 20px;}
+
+footer{padding-left: 20px;}
+ 
